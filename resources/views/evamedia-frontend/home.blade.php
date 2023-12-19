@@ -58,6 +58,116 @@ $baseurl = 'https://dev.goodeva.co.id/';
       overflow-y: auto;
       outline: 0;
   }
+  .w-90 {
+    width: 90%!important;
+  }
+  .w-80 {
+    width: 80%!important;
+  }
+
+    /*------------------ Media Query Mobile ------------------*/
+
+  /*--- media for set all scale in mobile ---*/
+  @media screen and (max-width: 475px) {
+  .m-by-m {
+    color: #000;
+    font-family: Inter;
+    font-size: 12.237px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+
+  .m-title-m {
+    color: #000;
+    font-family: Inter;
+    font-size: 15.734px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .mabout-by-m {
+    color: #000;
+    font-family: Inter;
+    font-size: 7px !important;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+
+  .mabout-title-m {
+    color: #000;
+    font-family: Inter;
+    font-size: 9px !important;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+
+  .m-text-m {
+    color: #000;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 144.017%;
+  }
+
+  .fs-title-modal2 {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px !important;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .nav-button-img {
+    width: 80px;
+  }
+
+  .modal-content {
+    border-radius: 20px 20px 0px 0px !important;
+  }
+
+  .modal-header {
+    border-radius: 20px 20px 0px 0px !important;
+    background: #FFF;
+    padding: 1.5rem !important;
+  }
+
+  }
+
+  @media screen and (min-width: 459px) and (max-width: 475px) {
+
+  }
+
+  @media screen and (min-width: 427px) and (max-width: 458px) {
+
+  }
+
+  /* phone mode 1 */
+  @media screen and (min-width: 396px) and (max-width: 426px) {
+
+  }
+
+  @media screen and (min-width: 377px) and (max-width: 395px) {
+
+  }
+
+  /* phone mode 2 */
+  @media screen and (min-width: 322px) and (max-width: 376px) {
+
+  }
+
+  /* phone mode 3 */
+  @media screen and (max-width: 321px) {
+
+  }
+
 </style>
 @stop
 
@@ -307,10 +417,12 @@ $baseGD = [
     'date_publish' => '23/Dec/2023',
     'by' => 'by evamedia digital',
     'cover_modal' => 'evamedia-asset/modal/evamedia-graphic-design-modal1.png',
+    'cover_modal-mobile' => 'evamedia-asset/modal/evamedia-graphic-design-modal1-mobile.png',
     'cover_modal2' => 'evamedia-asset/modal/evamedia-graphic-design-modal2.png',
-    'text-content-modal' => 'Evamedia is trusted for all your graphic design needs. Our experienced team is determined to provide creative and professional design solutions to help your brand appear more prominent. Starting from a unique logo to interesting marketing material, we are ready to help you create a superior identity. <br>  
-    We understand that design is not only a matter of appearance, but also about how your message is delivered. Therefore, we not only focus on visual appearance, but also ensure our design is easy to use and provide good experiences for users. Our goal is simple: creating a design that is not only beautiful, but also useful for the growth of your business.
-    Evamedia is the right choice if you are looking for a design team that is always up-to-date with the latest trends. We are committed to providing the best service, by responding to your every needs with creative and innovative solutions. With Evamedia, you can be sure that your graphic design will be done by a team who cares and is ready to give the best for you.',
+    'cover_modal2-mobile' => 'evamedia-asset/modal/evamedia-graphic-design-modal2-mobile.png',
+    'text-modal' => 'Evamedia is trusted for all your graphic design needs. Our experienced team is determined to provide creative and professional design solutions to help your brand appear more prominent. Starting from a unique logo to interesting marketing material, we are ready to help you create a superior identity. <br>  
+                             <br> We understand that design is not only a matter of appearance, but also about how your message is delivered. Therefore, we not only focus on visual appearance, but also ensure our design is easy to use and provide good experiences for users. Our goal is simple: creating a design that is not only beautiful, but also useful for the growth of your business. <br>  
+                             <br> Evamedia is the right choice if you are looking for a design team that is always up-to-date with the latest trends. We are committed to providing the best service, by responding to your every needs with creative and innovative solutions. With Evamedia, you can be sure that your graphic design will be done by a team who cares and is ready to give the best for you. <br>  ',
   ],
   [
     'cover' => 'evamedia-graphic-design-card2.png',
@@ -319,10 +431,12 @@ $baseGD = [
     'date_publish' => '23/Dec/2023',
     'by' => 'by evamedia digital',
     'cover_modal' => 'evamedia-asset/modal/evamedia-graphic-design-modal1.png',
+    'cover_modal-mobile' => 'evamedia-asset/modal/evamedia-graphic-design-modal1-mobile.png',
     'cover_modal2' => 'evamedia-asset/modal/evamedia-graphic-design-modal2.png',
-    'text-content-modal' => 'Evamedia is trusted for all your graphic design needs. Our experienced team is determined to provide creative and professional design solutions to help your brand appear more prominent. Starting from a unique logo to interesting marketing material, we are ready to help you create a superior identity. <br>  
-    We understand that design is not only a matter of appearance, but also about how your message is delivered. Therefore, we not only focus on visual appearance, but also ensure our design is easy to use and provide good experiences for users. Our goal is simple: creating a design that is not only beautiful, but also useful for the growth of your business.
-    Evamedia is the right choice if you are looking for a design team that is always up-to-date with the latest trends. We are committed to providing the best service, by responding to your every needs with creative and innovative solutions. With Evamedia, you can be sure that your graphic design will be done by a team who cares and is ready to give the best for you.',
+    'cover_modal2-mobile' => 'evamedia-asset/modal/evamedia-graphic-design-modal2-mobile.png',
+    'text-modal' => 'Evamedia is trusted for all your graphic design needs. Our experienced team is determined to provide creative and professional design solutions to help your brand appear more prominent. Starting from a unique logo to interesting marketing material, we are ready to help you create a superior identity. <br>  
+                             <br> We understand that design is not only a matter of appearance, but also about how your message is delivered. Therefore, we not only focus on visual appearance, but also ensure our design is easy to use and provide good experiences for users. Our goal is simple: creating a design that is not only beautiful, but also useful for the growth of your business. <br>  
+                             <br> Evamedia is the right choice if you are looking for a design team that is always up-to-date with the latest trends. We are committed to providing the best service, by responding to your every needs with creative and innovative solutions. With Evamedia, you can be sure that your graphic design will be done by a team who cares and is ready to give the best for you. <br>  ',
   ],
   [
     'cover' => 'evamedia-graphic-design-card3.png',
@@ -331,10 +445,12 @@ $baseGD = [
     'date_publish' => '23/Dec/2023',
     'by' => 'by evamedia digital',
     'cover_modal' => 'evamedia-asset/modal/evamedia-graphic-design-modal1.png',
+    'cover_modal-mobile' => 'evamedia-asset/modal/evamedia-graphic-design-modal1-mobile.png',
     'cover_modal2' => 'evamedia-asset/modal/evamedia-graphic-design-modal2.png',
-    'text-content-modal' => 'Evamedia is trusted for all your graphic design needs. Our experienced team is determined to provide creative and professional design solutions to help your brand appear more prominent. Starting from a unique logo to interesting marketing material, we are ready to help you create a superior identity. <br>  
-    We understand that design is not only a matter of appearance, but also about how your message is delivered. Therefore, we not only focus on visual appearance, but also ensure our design is easy to use and provide good experiences for users. Our goal is simple: creating a design that is not only beautiful, but also useful for the growth of your business.
-    Evamedia is the right choice if you are looking for a design team that is always up-to-date with the latest trends. We are committed to providing the best service, by responding to your every needs with creative and innovative solutions. With Evamedia, you can be sure that your graphic design will be done by a team who cares and is ready to give the best for you.',
+    'cover_modal2-mobile' => 'evamedia-asset/modal/evamedia-graphic-design-modal2-mobile.png',
+    'text-modal' => 'Evamedia is trusted for all your graphic design needs. Our experienced team is determined to provide creative and professional design solutions to help your brand appear more prominent. Starting from a unique logo to interesting marketing material, we are ready to help you create a superior identity. <br>  
+                             <br> We understand that design is not only a matter of appearance, but also about how your message is delivered. Therefore, we not only focus on visual appearance, but also ensure our design is easy to use and provide good experiences for users. Our goal is simple: creating a design that is not only beautiful, but also useful for the growth of your business. <br>  
+                             <br> Evamedia is the right choice if you are looking for a design team that is always up-to-date with the latest trends. We are committed to providing the best service, by responding to your every needs with creative and innovative solutions. With Evamedia, you can be sure that your graphic design will be done by a team who cares and is ready to give the best for you. <br>  ',
   ],
   [
     'cover' => 'evamedia-graphic-design-card4.png',
@@ -343,10 +459,12 @@ $baseGD = [
     'date_publish' => '23/Dec/2023',
     'by' => 'by evamedia digital',
     'cover_modal' => 'evamedia-asset/modal/evamedia-graphic-design-modal1.png',
+    'cover_modal-mobile' => 'evamedia-asset/modal/evamedia-graphic-design-modal1-mobile.png',
     'cover_modal2' => 'evamedia-asset/modal/evamedia-graphic-design-modal2.png',
-    'text-content-modal' => 'Evamedia is trusted for all your graphic design needs. Our experienced team is determined to provide creative and professional design solutions to help your brand appear more prominent. Starting from a unique logo to interesting marketing material, we are ready to help you create a superior identity. <br>  
-    We understand that design is not only a matter of appearance, but also about how your message is delivered. Therefore, we not only focus on visual appearance, but also ensure our design is easy to use and provide good experiences for users. Our goal is simple: creating a design that is not only beautiful, but also useful for the growth of your business.
-    Evamedia is the right choice if you are looking for a design team that is always up-to-date with the latest trends. We are committed to providing the best service, by responding to your every needs with creative and innovative solutions. With Evamedia, you can be sure that your graphic design will be done by a team who cares and is ready to give the best for you.',
+    'cover_modal2-mobile' => 'evamedia-asset/modal/evamedia-graphic-design-modal2-mobile.png',
+    'text-modal' => 'Evamedia is trusted for all your graphic design needs. Our experienced team is determined to provide creative and professional design solutions to help your brand appear more prominent. Starting from a unique logo to interesting marketing material, we are ready to help you create a superior identity. <br>  
+                             <br> We understand that design is not only a matter of appearance, but also about how your message is delivered. Therefore, we not only focus on visual appearance, but also ensure our design is easy to use and provide good experiences for users. Our goal is simple: creating a design that is not only beautiful, but also useful for the growth of your business. <br>  
+                             <br> Evamedia is the right choice if you are looking for a design team that is always up-to-date with the latest trends. We are committed to providing the best service, by responding to your every needs with creative and innovative solutions. With Evamedia, you can be sure that your graphic design will be done by a team who cares and is ready to give the best for you. <br>  ',
   ],
 ];
 
@@ -525,7 +643,7 @@ $baseUIUX = [
             @for($idx = 0; $idx < count($baseGD); $idx++) <!-- comment -->
               <div class="col-12 col-md-12 col-lg-12 mb-3">
                 <!-- <div class="card-item w-25 px-3"> -->
-                <div class="card-item px-3">
+                <div class="card-item px-3 open-modal" data-toggle="modal" data-target="#myModal-m{{$idx}}">
                   <div class="row">
                     <div class="col-12 col-md-12 col-lg-12">
                       <div class="cover-card">
@@ -1081,7 +1199,7 @@ $baseSMH = [
               <p class="modal-title fs-6 bold" id="modalLabel{{$idx}}">{{ $item['by'] }}</p>
               <h1 class="modal-title fs-2 bold" id="modalLabel{{$idx}}">{{ $item['title'] }}</h1>
               <hr>
-              <p class="modal-title fs-5 bold" id="modalLabel{{$idx}}"><?php echo $item['text-content-modal'] ?></p>
+              <p class="modal-title fs-5 bold" id="modalLabel{{$idx}}"><?php echo $item['text-modal'] ?></p>
             </div>
           </div>
           <div class="modal-body pt-4 pb-4" style="background: #FBFBFB;">
@@ -1166,6 +1284,110 @@ $baseSMH = [
                 </div>
               </div>
             </div> 
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+@endforeach
+{{-- mobile --}}
+@foreach ($baseGD as $idx => $item)
+<section class="py-5 bg-form-img mobile-show" id="formSendMailMob" style="">
+  <div class="modal fade" id="myModal-m{{$idx}}" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="modalLabel{{$idx}}" aria-hidden="true" style="overflow: hidden !important;">
+    <div class="modal-dialog modal-dialog-centered modal-fullscreen">
+      <div class="modal-content">
+        <div class="modal-header">
+          <img class="logo mx-0 align-content-center" src="{{ $baseurl }}public/evamedia-asset/header-and-footer/evamedia-logo.png" alt="">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="mb-5 pb-5" style="overflow: auto;">
+          <div class="modal-body">
+            <img src="{{ asset(''.$baseGD[$idx]['cover_modal-mobile']) }}" alt="" class="w-100">
+            <div class="content-details pt-4 pb-4">
+              <p class="modal-title m-by-m" id="modalLabel{{$idx}}">{{ $item['by'] }}</p>
+              <h1 class="modal-title m-title-m" id="modalLabel{{$idx}}">{{ $item['title'] }}</h1>
+              <hr>
+              <p class="modal-title m-text-m" id="modalLabel{{$idx}}"><?php echo $item['text-modal'] ?></p>
+            </div>
+          </div>
+          <div class="modal-body pt-3 pb-3">
+            <div class="row">
+              <div class="col-12 col-lg-12 col-xl-12">
+                <div class="content-img w-100">
+                  <img src="{{ asset(''.$baseGD[$idx]['cover_modal2-mobile']) }}" alt="" srcset="" class="w-100">
+                </div>
+              </div>
+              <div class="col-12 col-lg-12 col-xl-12 d-flex align-items-center">
+                <div class="content-text">
+                  <h1 class="fs-title-modal2 mt-desk1">
+                    PART OF OUR CLIENT
+                  </h1>
+                  <p class="c-696687">
+                    More than 3 years of high quality and dedicated service for digital marketing agency
+                  </p>
+                   <div class="row">
+                    <div class="col-12 col-lg-12 col-xl-12 d-flex align-items-left">
+                      <div class="col-6 col-lg-6 col-xl-6 btn-hero mt-2 mr-desk1">
+                        <a href="#formSendMail">
+                          <img src="/evamedia-asset/modal/evamedia-btn1-mobile.png" alt="" srcset="" class="w-90 ml-2">
+                        </a>
+                      </div>
+                      <div class="col-6 col-lg-6 col-xl-6 btn-hero mt-2 ">
+                        <a href="#formSendMail">
+                          <img src="/evamedia-asset/modal/evamedia-btn2-mobile.png" alt="" srcset="" class="w-90">
+                        </a>
+                      </div>
+                    </div>
+                   </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-body pt-3 pb-3">
+            <div class="list-card-service mt-5" id="graphicDesign">
+              <div class="title-list mb-4">
+                <h6 class="fs-title-modal2 mt-desk1">
+                  MORE ABOUT GRAPHIC DESIGN
+                </h6>
+              </div>
+              <div class="card-list pb-2 ">
+                <div class="d-flex">
+
+                  <div class="row">
+                    {{-- @for($index = 0; $index < 5; $index++) <!-- comment --> --}}
+                    @for($idx = 0; $idx < count($baseGD); $idx++) <!-- comment -->
+                      <div class="col-6 col-md-6 col-lg-6 mb-3">
+                        <!-- <div class="card-item w-25 px-3"> -->
+                        <div class="card-item open-modal" data-toggle="modal" data-target="#myModal-m{{$idx}}">
+                          <div class="row">
+                            <div class="col-12 col-md-12 col-lg-12">
+                              <div class="cover-card">
+                                <div class="img-cover">
+                                  <img src="{{ $baseurl }}public/evamedia-asset/home/{{ $baseGD[$idx]['cover'] }}" alt="" srcset="" class="w-100">
+                                </div>
+                              </div>
+                              <!-- <div class="text-cover "> -->
+                              <!-- <p> -->
+                              {{--<?php echo $baseGD[$idx]['title'] ?>--}}
+                              <!-- </p> -->
+                              <!-- </div> -->
+                            </div>
+                            <div class="content-card d-flex justify-content-between mt-2">
+                              <div class="creator-content">
+                                <h1 class="modal-title mabout-title-m" id="modalLabel{{$idx}}">{{ $item['title'] }}</h1>
+                                <p class="modal-title mabout-by-m" id="modalLabel{{$idx}}">{{ $item['by'] }}</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      @endfor
+                      {{-- @endfor --}}
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

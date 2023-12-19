@@ -25,3 +25,6 @@ Route::get('/tabel-form', function () {
 Route::get('/home-eva', function () {
     return view('evamedia-frontend.home');
 });
+Route::get('/home-berita', function () {
+    return view('evamedia.evamedia-main');
+});
