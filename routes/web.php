@@ -26,5 +26,5 @@ Route::get('/home-eva', function () {
     return view('evamedia-frontend.home');
 });
 Route::get('/home-berita', function () {
-    return view('evamedia.evamedia-main');
+    return view('evamedia.evamedia-detail-berita');
 });
