@@ -120,7 +120,7 @@
             justify-content: flex-end;
         }
         .cover-height {
-            height: 62em;
+            min-height: 62em;
         }
         .cover-height {
             position: relative;
@@ -241,6 +241,29 @@
 
         .dropify-wrapper {
             background-color: #FAFAFA !important;
+        }
+
+        .modal-footer {
+            display: flex;
+            flex-wrap: wrap;
+            flex-shrink: 0;
+            align-items: center;
+            justify-content: flex-end;
+            padding: .75rem;
+            border-top: none !important;
+            border-bottom-right-radius: calc(.3rem - 1px);
+            border-bottom-left-radius: calc(.3rem - 1px);
+        }
+
+        .modal-header {
+            display: flex;
+            flex-shrink: 0;
+            align-items: center;
+            justify-content: space-between;
+            padding: 1rem 1rem;
+            border-bottom: none !important;
+            border-top-left-radius: calc(.3rem - 1px);
+            border-top-right-radius: calc(.3rem - 1px);
         }
                 
         /* -------------------------------------------------------------------------------------------------------------------------------- */   
