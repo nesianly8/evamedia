@@ -28,3 +28,6 @@ Route::get('/home-eva', function () {
 Route::get('/home-berita', function () {
     return view('evamedia.evamedia-detail-berita');
 });
+Route::get('/form-berita', function () {
+    return view('evamedia.form_berita');
+});
