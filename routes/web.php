@@ -31,3 +31,6 @@ Route::get('/home-berita', function () {
 Route::get('/form-berita', function () {
     return view('evamedia.form_berita');
 });
+Route::get('/form-register', function () {
+    return view('evamedia.form_register');
+});
